@@ -95,7 +95,9 @@ var itemsInspiration = document.querySelectorAll(".section-container-inspiration
     xItems = 6;
 
 btnInspiration.addEventListener('click', function () {
-    scroll.update();
+    setTimeout(() => {
+        scroll.update();
+     }, 500); 
     document.querySelectorAll(".section-container-inspiration-block.hidden").forEach(function (item, index) {
         if(index < xItems) {
             item.classList.remove('hidden');
