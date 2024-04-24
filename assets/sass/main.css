@@ -144,6 +144,11 @@ body {
   display: none;
 }
 
+.swiper-intro .swiper-slide {
+  display: flex;
+  align-items: center;
+}
+
 .ornament-rotate {
   animation: ornament-rotate 10s linear infinite;
 }

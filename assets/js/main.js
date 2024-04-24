@@ -75,3 +75,32 @@ const swiperTestimony = new Swiper('.swiper-testimony', {
         },
     }
 });
+
+var swiperIntro = new Swiper(".swiper-intro", {
+    direction: "vertical",
+    speed: 1000,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    slidesPerView: 1,
+    loopFillGroupWithBlank: true,
+});
+
+
+//loadmore
+var itemsInspiration = document.querySelectorAll(".section-container-inspiration-block"),
+    btnInspiration = document.querySelector('.section-container-inspiration-loadmore'),
+    xItems = 6;
+
+btnInspiration.addEventListener('click', function () {
+    document.querySelectorAll(".section-container-inspiration-block.hidden").forEach(function (item, index) {
+        if(index < xItems) {
+            item.classList.remove('hidden');
+        }
+        if(document.querySelectorAll(".section-container-inspiration-block.hidden").length == 0) {
+            btnInspiration.style.display = "none";
+        }
+    });
+});
