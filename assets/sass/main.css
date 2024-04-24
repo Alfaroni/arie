@@ -53,6 +53,10 @@ body {
   opacity: 0;
 }
 
+.header {
+  transition: background-color .5s ease, opacity .5s ease;
+}
+
 .header-container-nav-trigger svg rect {
   transition: 300ms ease;
 }
