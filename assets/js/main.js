@@ -61,8 +61,8 @@ const swiperHorizontal = new Swiper('.swiper-horizontal', {
 })
 
 const swiperTestimony = new Swiper('.swiper-testimony', {
-    slidesPerView: 1.1,
-    spaceBetween: 16,
+    slidesPerView: 1.05,
+    spaceBetween: 8,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
