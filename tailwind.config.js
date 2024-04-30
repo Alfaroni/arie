@@ -9,7 +9,6 @@ module.exports = {
       },
       fontFamily: {
         'poppins': 'var(--font-poppins)',
-        'raleway': 'var(--font-raleway)',
       },
     }
   },

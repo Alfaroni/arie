@@ -45,12 +45,17 @@ scroll.on('call', (value, way, obj) => {
 });
 scroll.on('scroll', ({limit, scroll}) => {
     const progress = scroll.y / limit.y * 10
-    document.querySelector('[data-scroll-progress]').style.cssText += "--progress:"+ progress +";"
+    if(document.querySelector('[data-scroll-progress]')){
+        document.querySelector('[data-scroll-progress]').style.cssText += "--progress:"+ progress +";"
+    }
 })
+setTimeout(() => {
+    scroll.update();
+}, 500); 
 
 const swiperHorizontal = new Swiper('.swiper-horizontal', {
     centeredSlides: true,
-    speed: 10000,
+    speed: 5000,
     autoplay: {
         delay: 1,
         disableOnInteraction: false,

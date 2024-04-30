@@ -13,7 +13,7 @@
     <!-- css.googlefont -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">        
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">        
     <!-- css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
@@ -43,11 +43,11 @@
                         <div class="header-container-nav-collapse fixed z-10 inset-0 bg-black text-white lg:text-inherit bg-gradient-to-r from-transparent via-violet-800/20 to-transparent transition-transform -translate-x-full overflow-y-auto lg:static lg:bg-transparent lg:via-transparent lg:translate-x-0 lg:overflow-y-visible"  data-toggle-open="menu">
                             <ul class="header-container-nav-collapse-menu flex flex-col justify-center whitespace-nowrap min-h-full py-20 text-lg md:text-base text-center gap-6 lg:py-0 lg:flex-row"> 
                                 <li class="header-container-nav-collapse-menu-item active"><a href="#home" data-scroll-to data-toggle-close>Home</a></li>
-                                <li class="header-container-nav-collapse-menu-item"><a href="#about" data-scroll-to data-toggle-close>About</a></li>
                                 <li class="header-container-nav-collapse-menu-item"><a href="#works" data-scroll-to data-toggle-close>Works</a></li>
-                                <li class="header-container-nav-collapse-menu-item"><a href="#expertise" data-scroll-to data-toggle-close>Expertise</a></li>
-                                <li class="header-container-nav-collapse-menu-item"><a href="#inspiration" data-scroll-to data-toggle-close>Inspiring</a></li>
                                 <li class="header-container-nav-collapse-menu-item"><a href="#quotes" data-scroll-to data-toggle-close>Quotes</a></li>
+                                <li class="header-container-nav-collapse-menu-item"><a href="#expertise" data-scroll-to data-toggle-close>Expertise</a></li>
+                                <li class="header-container-nav-collapse-menu-item"><a href="#how" data-scroll-to data-toggle-close>How to</a></li>
+                                <li class="header-container-nav-collapse-menu-item"><a href="#inspiration" data-scroll-to data-toggle-close>Inspiring</a></li>
                                 <li class="header-container-nav-collapse-menu-item lg:hidden"><a href="#contact" data-scroll-to data-toggle-close>Contact us</a></li>
                             </ul>
                         </div>
@@ -60,30 +60,48 @@
         <!-- main -->
         <main class="main">
             <!-- section.Intro -->
-            <div id="intro" class="section overflow-hidden relative min-h-screen flex flex-col justify-between text-black bg-purple-50 bg-gradient-to-r from-transparent via-violet-800/20 to-transparent" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+            <div id="intro" class="section overflow-hidden relative min-h-screen flex flex-col justify-between text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+                <svg class="absolute pointer-events-none" width="1078" height="955" viewBox="0 0 1078 955" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_22_26)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M589.334 121.007C663.223 116.822 748.061 75.9681 806.859 120.91C866.364 166.391 837.024 263.952 866.457 332.821C894.808 399.161 966.22 443.274 975.218 514.855C985.252 594.67 968.572 681.607 918.184 744.316C867.226 807.733 785.036 839.927 704.539 851.716C629.849 862.655 552.11 845.856 487.128 807.444C429.597 773.438 420.586 691.9 366.882 652.124C288.957 594.41 150.379 616.509 110.182 528.264C73.1245 446.912 145.266 352.96 197.59 280.478C244.015 216.168 313.625 174.589 387.088 144.684C451.253 118.564 520.166 124.925 589.334 121.007Z" fill="url(#paint0_linear_22_26)" fill-opacity="0.3"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_22_26" x="0" y="0" width="1078" height="955" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_22_26"/>
+                        </filter>
+                        <linearGradient id="paint0_linear_22_26" x1="539" y1="100" x2="539" y2="855" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#A855F7"/>
+                        <stop offset="1" stop-opacity="0.1"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                    
                 <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col justify-between gap-10 py-28 px-6 lg:px-12">
+                    <a href="#contact" data-scroll-to  class="absolute top-6 right-6 py-3 flex items-center text-black underline gap-2">Get in touch </a>
                     <div class="section-container-text flex-1 flex flex-col justify-center gap-6">
-                        <div class="font-raleway tracking-tight relative font-bold text-3xl lg:text-[6rem] leading-tight lg:leading-tight overflow-hidden">
+                        <div class="tracking-tight relative font-bold text-4xl lg:text-[6rem] leading-tight lg:leading-tight overflow-hidden">
                             <div class="bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-purple-500" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-reveal">
-                                Ready to Elevate Your 
+                                How deep is your 
                                 <div class="swiper swiper-intro h-14 lg:h-28 whitespace-nowrap leading-relaxed text-violet-500">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">Product Management</div>
-                                        <div class="swiper-slide">Design Thinking</div>
-                                        <div class="swiper-slide">OKR Framework</div>
-                                        <div class="swiper-slide text-2xl lg:text-7xl">Stakeholder Management</div>
-                                        <div class="swiper-slide">Project Management</div>
-                                        <div class="swiper-slide">Agile Methodologies</div>
-                                        <div class="swiper-slide text-xl lg:text-7xl">Retention and Loyalty Program</div>
-                                        <div class="swiper-slide">Team Management</div>
+                                    <div class="swiper-wrapper lowercase">
+                                        <div class="swiper-slide">Product Management?</div>
+                                        <div class="swiper-slide">Design Thinking?</div>
+                                        <div class="swiper-slide">OKR Framework?</div>
+                                        <div class="swiper-slide text-3xl lg:text-[6rem]">Stakeholder Management?</div>
+                                        <div class="swiper-slide">Project Management?</div>
+                                        <div class="swiper-slide">Agile Methodologies?</div>
+                                        <div class="swiper-slide text-[2rem] lg:text-[5rem]">Retention and Loyalty Program?</div>
+                                        <div class="swiper-slide">Team Management?</div>
                                     </div>
                                 </div>
                             </div> 
                         </div>
                         <p class="lg:text-xl max-w-3xl overflow-hidden">
-                            <span style="--delay: 200ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-reveal">In today's dynamic environment of lean teams and limited resources, effective collaboration is essential. Upskilling in these areas can unlock new opportunities, accelerate innovation, and keep you ahead in a competitive market. Let's collaborate!</span>
+                            <span style="--delay: 200ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-reveal">Did you know that nearly <b>7 out of every 10 employees feel less satisfied with their jobs when they lack the skills</b> to perform at their best? In today's competitive landscape, basic skills aren't enough. <i>- shrm</i></span>
                         </p>
-                        <svg data-scroll data-scroll-progress style="rotate: calc(var(--progress) * 40deg)" class="absolute right-0 top-12 opacity-20 w-44 lg:w-auto" width="279" height="271" viewBox="0 0 279 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg data-scroll data-scroll-progress style="rotate: calc(var(--progress) * 40deg)" class="absolute right-0 top-12 opacity-20 w-44 lg:w-auto pointer-events-none" width="279" height="271" viewBox="0 0 279 271" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path opacity="0.0526316" d="M21.6049 218.595C27.4722 226.401 46.2247 239.463 74.2964 229.264C109.386 216.516 122.957 182.725 154.275 165.204C177.39 152.272 239.501 132.86 275.216 154.31" stroke="currentColor" stroke-width="1.45842"/>
                             <path opacity="0.105263" d="M15.8176 202.23C20.8369 210.606 38.1213 225.557 67.1052 218.349C103.335 209.339 120.364 177.151 153.342 162.999C177.682 152.554 241.482 139.741 274.759 164.807" stroke="currentColor" stroke-width="1.45842"/>
                             <path opacity="0.157895" d="M11.4455 185.645C15.5616 194.5 31.1886 211.176 60.7672 207.037C97.7405 201.863 118.041 171.632 152.317 161.004C177.616 153.161 242.406 147.087 272.88 175.494" stroke="currentColor" stroke-width="1.45842"/>
@@ -105,134 +123,169 @@
                             <path d="M101.58 1.00002C92.3425 4.16799 74.1247 17.9662 75.1493 47.8155C76.43 85.1271 104.374 108.476 111.36 143.676C116.516 169.656 115.784 234.725 84.3475 262.064" stroke="currentColor" stroke-width="1.45842"/>
                         </svg>
                     </div>
-                    <a href="#home" data-scroll-to class="rounded-full bg-white text-sm text-black  py-2 px-4 lg:py-4 lg:px-8 flex ml-auto font-bold items-center gap-2"  style="opacity: 0; transform: translate3d(1rem, 0, 0); --delay: 400ms" data-scroll-offset="0%, 10%" data-scroll data-scroll-class="scroll-fadeInXY" >GET STARTED 
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 12.5H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 5.5L19 12.5L12 19.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+                    <div class="flex items-center justify-between">
+                        <a href="#home" data-scroll-to class="rounded-full relative bg-black text-white py-3 px-4 lg:px-8 flex font-bold items-center gap-2"  style="opacity: 0; transform: translate3d(1rem, 0, 0); --delay: 400ms" data-scroll-offset="0%, 10%" data-scroll data-scroll-class="scroll-fadeInXY" >Let’s Find Out
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.5H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.5L19 12.5L12 19.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg class="absolute left-3/4 lg:left-full scale-50 lg:scale-100" width="187" height="162" viewBox="0 0 187 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 59.2736C68.583 59.2736 130.182 39.0962 184.326 3" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M21.7578 78.0315C47.6752 78.0315 75.7156 77.9736 100.958 84.2841" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M23.842 103.042C53.9133 111.886 98.8735 118.898 98.8735 159.316" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
+                            </svg>       
+                        </a>
+                        <div class="flex items-center justify-center gap-2">
+                            <svg width="16" height="53" viewBox="0 0 16 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L8 51" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 45L8 52L1 45" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Scroll<br>to explore</span>  
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- section.Home -->
             <section id="home" class="section overflow-hidden relative min-h-screen bg-white text-black flex flex-col justify-between overflow-hidden" data-scroll data-scroll-repeat  data-tone="light" data-scroll-call="scrollEvent">
                 <div class="section-container container  relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col justify-between pt-28 px-6 lg:flex-row lg:px-12 lg:pb-28">
-                    <span class="absolute top-12 right-12 ornament-rotate" >
+                    <span class="absolute top-12 right-12 ornament-rotate pointer-events-none" >
                         <img src="assets/images/Helix.png" alt="ornament" width="150" height="150">
                     </span>
                     <div class="section-container-left flex flex-col justify-start pt-20"  data-scroll  data-scroll-offset="0%, 10%" data-scroll-speed="2">
-                        <h2 class="font-raleway relative font-bold text-4xl lg:text-7xl  leading-tight lg:leading-tight pb-8 mb-8"><small class="block text-2xl">Hello, I’m 👋🏼</small><span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-purple-500">Cahyanto<br> Arie Wibowo. </span>
-                            <svg class="absolute bottom-0 left-0"  width="302" height="19" viewBox="0 0 302 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 11.086C61.0748 3.76926 201.528 -5.41871 298.744 16.363" class="stroke-violet-600" stroke-width="5" stroke-linecap="round"/>
-                            </svg>
-                        </h2>
-                        <p class="lg:max-w-md text-zinc-500">I lead initiatives to drive growth and success. From generating leads and nurturing client relationships to optimizing project proposals and overseeing operational workflows, I ensure strategic direction and impactful contributions for sustained success.</p>
+                        <h2 class="relative font-bold text-5xl lg:text-[6rem] leading-tight lg:leading-tight mb-8"><small class="block text-2xl">Hello, I’m 👋🏼</small><span class="bg-clip-text tracking-tight  text-transparent bg-gradient-to-r from-pink-600 to-purple-500">Cahyanto<br> Arie Wibowo.</span></h2>
+                        <span class="flex flex-col gap-2 lg:flex-row">Business Development Director at <span><img class="object-contain inline-block" src="assets/images/logo-partner/logo-h+.png" alt="logo" width="36" height="20"> part of <img class="object-contain inline-block" src="assets/images/logo-partner/logo-hakuhodo.png" alt="logo" width="180" height="16"></span></span>
                     </div>
-                    <div class="section-container-right flex flex-col justify-center lg:max-w-md mt-8" data-scroll data-scroll-offset="0%, 10%" data-scroll-speed="1">
-                        <p class="mb-8 text-zinc-500">Vast experience managing product lifecycle with multiple industry backgrounds in more than 10 years: Digital Consulting (AsiaQuest Co., Ltd), Digital Media Publishing Industry (detik.com, CNN Indonesia, CNBC Indonesia, and Kapanlagi Youniverse), E-commerce (Lazada as an intern and Bukalapak), and as a Board of Member of Association (Head of Knowledge Management and Researcher at Indonesian Digital Association (IDA).</p>
-                        <p class="font-semibold text-zinc-500">I believe execution is just the start, and collaborative learning keeps us all winning.</p>
-                        <div class="section-container-logos-row flex items-center gap-4 flex-wrap mt-8">
-                            <img src="assets/images/logo-partner/logo_kly.png" class="object-contain h-8">
-                            <img src="assets/images/logo-partner/logo_ida.png"  class="object-contain h-8">
-                            <img src="assets/images/logo-partner/logo_cnn.png" class="object-contain h-8">
-                            <img src="assets/images/logo-partner/logo_cnbc.png" class="object-contain h-8">
-                            <img src="assets/images/logo-partner/logo_detik.png" class="object-contain h-4">
-                            <img src="assets/images/logo-partner/logo_bukalapak.svg"  class="object-contain h-4">
-                            <img src="assets/images/logo-partner/logo_asiaquest.png" class="object-contain h-4">
-                            <img src="assets/images/logo-partner/logo_lazada.png" class="object-contain h-8">
-                        </div>
+                    <div class="section-container-right flex flex-col justify-start lg: justify-center lg:max-w-md " data-scroll data-scroll-offset="0%, 10%" data-scroll-speed="1">
+                        <p class="mb-8 hidden lg:block">With over 10+ years of experience, I have led initiatives driving growth and success. This includes overseeing lead generation, client relationship nurturing, and optimizing project and operational workflows to ensure strategic direction and impactful contributions for sustained success.</p>
+                        <p class="font-bold">I believe execution is just the start, and collaborative learning keeps us all winning.</p>
                     </div>
                     <div class="section-container-image lg:absolute bottom-0 inset-x-0 flex justify-center mt-12">
-                        <img class="object-contain max-w-64 lg:max-w-full" src="assets/images/image-personal.png" alt="image" width="360" height="520">
-                        <span class="text-xs bg-purple-500 text-white flex lg:text-sm items-center absolute bottom-8 gap-1 whitespace-nowrap p-2">Business Development Director at H+ part of <img class="object-contain w-20 lg:w-28 inline-block" src="assets/images/logo-partner/logo-hakuhodo.png" alt="logo" width="169" height="22"></span>
+                        <img class="object-contain relative z-10 max-w-52 lg:max-w-md" src="assets/images/image-personal.png" alt="image" width="360" height="520">
+                        <svg class="absolute z-0 pointer-events-none -bottom-1/2"  width="1078" height="955" viewBox="0 0 1078 955" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_f_22_67)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M589.334 121.007C663.223 116.822 748.061 75.9681 806.859 120.91C866.364 166.391 837.024 263.952 866.457 332.821C894.808 399.161 966.22 443.274 975.218 514.855C985.252 594.67 968.572 681.607 918.184 744.316C867.226 807.733 785.036 839.927 704.539 851.716C629.849 862.655 552.11 845.856 487.128 807.444C429.597 773.438 420.586 691.9 366.882 652.124C288.957 594.41 150.379 616.509 110.182 528.264C73.1245 446.912 145.266 352.96 197.59 280.478C244.015 216.168 313.625 174.589 387.088 144.684C451.253 118.564 520.166 124.925 589.334 121.007Z" fill="url(#paint0_linear_22_67)" fill-opacity="0.2"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_f_22_67" x="0" y="0" width="1078" height="955" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_22_67"/>
+                            </filter>
+                            <linearGradient id="paint0_linear_22_67" x1="733" y1="296" x2="100" y2="533.136" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#A855F7"/>
+                            <stop offset="0.4" stop-color="#1F0CFB" stop-opacity="0.64"/>
+                            <stop offset="0.72" stop-color="#F41212" stop-opacity="0.352"/>
+                            <stop offset="1" stop-opacity="0.1"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
                     </div>
                 </div>
             </section>
 
-            <!-- section.About -->
-            <div id="about" class="section overflow-hidden min-h-screen relative flex flex-col justify-between bg-black text-white bg-gradient-to-r from-transparent via-violet-800/40 to-transparent" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col text-center items-center justify-center gap-16 py-28 px-6 lg:px-12">
-                    <p class="max-w-3xl text-base lg:text-xl overflow-hidden" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY"><span>Since 2019 to the present, Arie has shared his expertise in product management, development, and digital media publishing with leading brands and platforms across Indonesia, Southeast Asia, and at the Asia regional level</span></p>
-                    <div class="section-container-logos flex flex-col gap-12" style="--delay: 200ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
-                        <div class="section-container-logos-row flex items-center gap-6 justify-center flex-wrap">
-                            <img src="assets/images/logo-partner/logo_growth.png" class="object-contain grayscale h-8">
-                            <img src="assets/images/logo-partner/logo_google.svg"  class="object-contain brightness-0 invert h-4">
-                            <img src="assets/images/logo-partner/logo_moengage.svg" class="object-contain brightness-0 invert h-4">
-                            <img src="assets/images/logo-partner/logo_ida.png" class="object-contain brightness-0 invert h-8">
-                            <img src="assets/images/logo-partner/logo_customer.svg" class="object-contain grayscale h-8">
-                            <img src="assets/images/logo-partner/logo_mma.png" class="object-contain brightness-0 invert h-8">
-                            <img src="assets/images/logo-partner/logo_idea.png" class="object-contain brightness-0 invert h-8">
-                            <img src="assets/images/logo-partner/logo_bi.png" class="object-contain brightness-0 invert h-8">
+            <!-- section.Works -->
+            <div id="works" class="section overflow-hidden relative flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent"> 
+                <div class="section-container container relative z-10 max-w-screen-xl mx-auto px-6 lg:px-12">
+                    <div class="section-container-logos py-4 gap-4 flex flex-col lg:flex-row items-center">
+                        <span class="section-container-logos-title">Past Experiences</span>
+                        <div class="section-container-logos-row flex-1 overflow-hidden relative w-full">
+                            <span class="absolute inset-0 z-10" style="background: linear-gradient(97deg, rgba(255, 255, 255,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, rgba(255, 255, 255,1) 100%);"></span>
+                            <div class="swiper swiper-horizontal whitespace-nowrap pointer-events-none">
+                                <div class="swiper-wrapper items-center gap-10">
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_kly.png" class="object-contain h-8"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_cnn.png" class="object-contain h-8"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_ida.png"  class="object-contain h-8 -mt-1"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_cnbc.png" class="object-contain h-8"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_detik.png" class="object-contain h-4"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_bukalapak.svg"  class="object-contain h-4"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_asiaquest.png" class="object-contain h-4"></div>
+                                    <div class="swiper-slide w-auto"><img src="assets/images/logo-partner/logo_lazada.png" class="object-contain h-8"></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="section-container-logos-row flex items-center gap-6 justify-center flex-wrap">
-                            <img src="assets/images/logo-partner/logo_bukatalks.png" class="object-contain grayscale invert h-8">
-                            <img src="assets/images/logo-partner/logo_aws.png"  class="object-contain brightness-0 invert h-8">
-                            <img src="assets/images/logo-partner/logo_ocbc.png" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_terampil.png" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_izooto.png" class="object-contain  brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_digitalent.png" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_synrgy.png" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_binar.svg" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_revou.svg" class="object-contain grayscale  h-8 ">
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 py-16 lg:gap-12">
+                        <div class="flex items-center justify-center gap-4 bg-white shadow-xl rounded-3xl min-h-32 text-sm lg:text-2xl px-4 lg:px-16 lg:flex-row lg:justify-start lg:text-left col-span-2 lg:col-auto">
+                            <span class="rounded-full bg-red-500 min-h-10 min-w-24 lg:min-h-16 lg:min-w-28 text-white text-2xl font-bold flex items-center justify-center">13+</span> 
+                            <span><b>Years</b> of <br> Professional Experience</span>
                         </div>
-                        <div class="section-container-logos-row flex items-center gap-6 justify-center flex-wrap">
-                            <img src="assets/images/logo-partner/logo_glints.png" class="object-contain grayscale invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_disea.jpeg"  class="object-contain grayscale h-8">
-                            <img src="assets/images/logo-partner/Logo-Untar.webp" class="object-contain brightness-0 invert h-8">
-                            <img src="assets/images/logo-partner/logo-bca.svg" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo-FEB-UI.png" class="object-contain grayscale  h-8 ">
-                            <img src="assets/images/logo-partner/logo_kemenparekraf.png" class="object-contain grayscale invert  h-8 ">
-                            <img src="assets/images/logo-partner/logo_teknik.png" class="object-contain grayscale  h-8 ">
-                            <img src="assets/images/logo-partner/logo-binus.svg" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_emtekdigital.png" class="object-contain brightness-0 invert h-8 ">
+                        <div class="flex flex-col items-center justify-center gap-4 bg-white shadow-xl rounded-3xl min-h-32 text-center text-sm lg:text-2xl lg:flex-row lg:text-left lg:justify-start lg:px-16">
+                            <span class="rounded-full bg-yellow-300 min-h-10 min-w-24 lg:min-h-16 lg:min-w-28 text-black text-2xl font-bold flex items-center justify-center">50+</span> 
+                            <span><b>Events</b> as Trainer,<br>Speaker and Mentor</span>
                         </div>
-                        <div class="section-container-logos-row flex items-center gap-6 justify-center flex-wrap">
-                            <img src="assets/images/logo-partner/logo_similarweb.svg" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_adplist.png"  class="object-contain brightness-0 invert h-8">
-                            <img src="assets/images/logo-partner/logo_sinarmas.png" class="object-contain grayscale invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_bpd.png" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_apiary.webp" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_indoproduct.webp" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_1000.png" class="object-contain brightness-0 invert h-12">
-                            <img src="assets/images/logo-partner/logo_kominfo.png" class="object-contain grayscale h-8 ">
-                            <img src="assets/images/logo-partner/Logo-IMM.png" class="object-contain grayscale h-8 ">
-                            <img src="assets/images/logo-partner/logo_admedika.png" class="object-contain brightness-0 invert h-8 ">
-                            <img src="assets/images/logo-partner/logo_growthhack.webp" class="object-contain brightness-0 invert   h-8 ">
+                        <div class="flex flex-col items-center justify-center gap-4 bg-white shadow-xl rounded-3xl min-h-32 text-center text-sm lg:text-2xl lg:flex-row lg:text-left lg:justify-start px-4 lg:px-16">
+                            <span class="rounded-full bg-violet-500  min-h-10 min-w-24 lg:min-h-16 lg:min-w-28 text-white text-2xl font-bold flex items-center justify-center">1200+</span> 
+                            <span>Professionals <b>Coached</b></span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center gap-4 bg-white shadow-xl rounded-3xl min-h-32 text-center text-sm lg:text-xl px-4 lg:flex-row lg:text-left lg:justify-start lg:px-16 col-span-2 lg:col-auto">
+                            Arie experienced to share product management, development, growth and also the digital media publishing industry for several brands.
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- section.Works -->
-            <div id="works" class="section overflow-hidden relative flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <div class="section-container container relative z-10 border-t border-b border-black/10 max-w-full mx-auto">
-                    <div class="swiper swiper-horizontal  pointer-events-none">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide w-auto flex items-center min-h-20 lg:min-h-32 px-6 lg:px-10 text-lg lg:text-2xl whitespace-nowrap border border-black/10 gap-4"><span class="rounded-full font-raleway bg-red-500 text-white flex items-center justify-center min-h-12 lg:min-h-16 text-2xl font-bold lg:text-4xl px-4 lg:px-12">13+</span> <span><strong>Years</strong> of Professional Experience</span></div>
-                            <div class="swiper-slide w-auto flex items-center min-h-20 lg:min-h-32 px-6 lg:px-10 text-lg lg:text-2xl whitespace-nowrap border border-black/10 gap-4"><span class="rounded-full font-raleway bg-orange-400 text-white flex items-center justify-center min-h-12 lg:min-h-16 text-2xl font-bold lg:text-4xl px-4 lg:px-12">50+</span> <span><strong>Events</strong> as Trainer, Speaker and Mentor</span></div>
-                            <div class="swiper-slide w-auto flex items-center min-h-20 lg:min-h-32 px-6 lg:px-10 text-lg lg:text-2xl whitespace-nowrap border border-black/10 gap-4"><span class="rounded-full font-raleway bg-yellow-300 text-black flex items-center justify-center min-h-12 lg:min-h-16 text-2xl font-bold lg:text-4xl px-4 lg:px-12">1200+</span> <span>Professionals <strong>Coached</strong></span></div>
-                        </div>
+            <!-- section.Quotes -->
+            <div id="quotes" class="section overflow-hidden relative min-h-screen flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+                <span class="absolute right-0 lg:right-12 top-0 lg:top-12 pointer-events-none" >
+                    <img class="ornament-rotate" src="assets/images/Pyramid.png" alt="ornament" width="150" height="150">
+                </span>
+                <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col items-center justify-center gap-10 py-28 px-6 lg:px-12">
+                    <p class="relative max-w-5xl font-bold leading-tight text-3xl lg:text-6xl lg:leading-tight tracking-tight text-center" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">
+                        <svg class="absolute -top-28 left-8 w-14 lg:w-auto" width="149" height="148" viewBox="0 0 149 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M56 69.375H28.7588C29.6183 63.6508 31.6623 58.1689 34.7601 53.2792C37.8579 48.3896 41.9415 44.1998 46.75 40.9775L55.0288 35.4275L49.9412 27.75L41.6625 33.3C34.6939 37.9439 28.9794 44.2361 25.0261 51.6183C21.0727 59.0006 19.0028 67.2446 19 75.6188V106.375C19 108.828 19.9746 111.181 21.7093 112.916C23.444 114.65 25.7967 115.625 28.25 115.625H56C58.4533 115.625 60.806 114.65 62.5407 112.916C64.2754 111.181 65.25 108.828 65.25 106.375V78.625C65.25 76.1717 64.2754 73.819 62.5407 72.0843C60.806 70.3496 58.4533 69.375 56 69.375ZM120.75 69.375H93.5088C94.3683 63.6508 96.4123 58.1689 99.5101 53.2792C102.608 48.3896 106.692 44.1998 111.5 40.9775L119.779 35.4275L114.738 27.75L106.412 33.3C99.4439 37.9439 93.7294 44.2361 89.7761 51.6183C85.8227 59.0006 83.7528 67.2446 83.75 75.6188V106.375C83.75 108.828 84.7246 111.181 86.4593 112.916C88.194 114.65 90.5467 115.625 93 115.625H120.75C123.203 115.625 125.556 114.65 127.291 112.916C129.025 111.181 130 108.828 130 106.375V78.625C130 76.1717 129.025 73.819 127.291 72.0843C125.556 70.3496 123.203 69.375 120.75 69.375Z" fill="#111111"/>
+                        </svg>     
+                        I am dedicated to providing <br><span class="bg-violet-600 text-yellow-300 inline-block px-2 text-white">engaging, insightful, and actionable</span><br> presentations tailored to meet your organization's specific needs. <br>Together, let's inspire growth and drive success.
+                    </p>
+                    <div class="relative font-medium lg:text-lg pb-8 flex items-center gap-2" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
+                        <img src="assets/images/quotes.jpg" alt="image" width="30" height="30" class="object-cover object-left w-10 h-10 lg:w-14 lg:h-14 rounded-full">
+                        <span>Cahyanto Arie Wibowo</span>
+                        <svg class="absolute bottom-0 inset-x-0 w-full" width="299" height="40" viewBox="0 0 299 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 37C59.1667 22.3333 197.3 -4.7 296.5 4.5" class="stroke-yellow-400" stroke-width="5" stroke-linecap="round"/>
+                        </svg>
                     </div>
-                    <div class="swiper swiper-horizontal  pointer-events-none">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide w-auto flex items-center min-h-20 lg:min-h-32 px-6 lg:px-10 text-lg lg:text-2xl whitespace-nowrap border border-black/10 gap-4 ">Arie experienced to share product management, development, growth <br>and also the digital media publishing industry for several brands.</div>
-                            <div class="swiper-slide w-auto flex items-center min-h-20 lg:min-h-32 px-6 lg:px-10 text-lg lg:text-2xl whitespace-nowrap border border-black/10 gap-4 "><span class="rounded-full font-raleway bg-purple-500 text-white flex items-center justify-center min-h-12 lg:min-h-16 text-2xl font-bold lg:text-4xl px-4 lg:px-12">1200+</span> <span>Professionals <strong>Coached</strong></span></div>
-                            <div class="swiper-slide w-auto flex items-center min-h-20 lg:min-h-32 px-6 lg:px-10 text-lg lg:text-2xl whitespace-nowrap border border-black/10 gap-4"><span class="rounded-full font-raleway bg-indigo-600 text-white flex items-center justify-center min-h-12 lg:min-h-16 text-2xl font-bold lg:text-4xl px-4 lg:px-12">50+</span> <span><strong>Events</strong> as Trainer, Speaker and Mentor</span></div>
+                </div>
+                <span class="absolute left-0 lg:left-12 bottom-0 lg:bottom-12 pointer-events-none" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
+                    <img class="ornament-rotate" src="assets/images/Helix.png" alt="ornament" width="150" height="150">
+                </span>
+            </div>
+
+
+            <!-- section.Expertise -->
+            <div id="expertise" class="section overflow-hidden relative flex flex-col justify-between bg-white text-black" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+                <div class="section-container container relative z-10 max-w-full mx-auto flex-1 flex flex-col items-center gap-8 py-10 lg:flex-row">
+                    <div class="section-container-head pl-6 lg:pl-12 text-3xl lg:text-4xl"><h3 class="font-bold leading-tight lg:leading-tight">Expertise Highlight</h3></div>
+                    <div class="section-container-expertise flex-1 overflow-hidden relative w-full text-xl lg:text-3xl">
+                        <span class="absolute inset-0 z-10" style="background: linear-gradient(97deg, rgba(255, 255, 255,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, rgba(255, 255, 255,1) 100%);"></span>
+                        <div class="swiper swiper-horizontal whitespace-nowrap pointer-events-none ">
+                            <div class="swiper-wrapper gap-4 items-center">
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-purple-500 text-purple-500">Design Thinking</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-red-300 text-red-500">Product Development Lifecycle</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-sky-300 text-sky-500">Crafting CVs and Resumes </div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-violet-300 text-violet-500">Product Strategy</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-blue-300 text-blue-500">Career as Product Manager</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-emerald-300 text-emerald-500">Analytics & Business Analysis</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-cyan-300 text-cyan-500">Product Delivery</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-rose-300 text-rose-500">Teamwork and Team Management </div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-orange-300 text-orange-500"> Personal Growth Development</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-orange-300 text-orange-300"> Product Metrics</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-indigo-300 text-indigo-300">Stakeholder Management</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-lime-300 text-lime-300">User Research</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-yellow-300 text-yellow-500">Agile Methodologies</div>
+                                <div class="swiper-slide w-auto rounded-full py-2 px-4 lg:px-6 border-2 border-pink-300 text-pink-500">Retention and Loyalty Program</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <!-- section.Works.2 -->
-            <div id="works" class="section overflow-hidden min-h-screen relative flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent"> 
-                <span class="absolute left-0 lg:left-12 top-0 lg:top-12" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
-                    <img class="ornament-rotate" src="assets/images/Helix.png" alt="ornament" width="150" height="150">
-                </span>
+
+            <!-- section.How -->
+            <div id="how" class="section overflow-hidden min-h-screen relative flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent"> 
                 <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col text-center items-center justify-center gap-16 py-28 px-6 lg:px-12">
-                    <p class="font-raleway text-3xl font-bold lg:text-4xl overflow-hidden" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY"><span>From Crowd to Coach <span class="block text-2xl">Find Your Ideal Learning Format with Arie</span></span></p>
+                    <p class="text-2xl font-bold lg:text-4xl overflow-hidden" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Inspiring Excellence Service <br>in Every Interaction</p>
                     <div class="section-container-expertise flex flex-col gap-12" style="--delay: 200ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
                         <div class="section-container-expertise-box flex flex-col lg:flex-row lg:items-start items-center justify-center gap-12">
-                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72 lg:mt-16 text-zinc-500">
+                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72 lg:mt-16">
                                 <span class="rounded-full bg-violet-500 text-white py-2 px-6 flex font-bold items-center gap-2 relative">Seminars <img src="assets/images/icon-sem.png" class="absolute -bottom-6 w-28 -right-16 object-contain"></span>
                                 <p>Engage audiences through immersive seminars tailored to specific topics, offering actionable insights and strategies.</p>
                             </div>
@@ -242,17 +295,17 @@
                                     <path d="M3 37.3668C59.6667 22.7002 197.8 -4.33316 297 4.86684" stroke="#FFDE68" stroke-width="5" stroke-linecap="round"/>
                                 </svg>
                             </div>
-                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72 lg:mt-16 text-zinc-500">
+                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72 lg:mt-16">
                                 <span class="rounded-full bg-red-500 text-white py-2 px-6 flex font-bold items-center gap-2 relative">Profesional Coaching <img src="assets/images/icon-pro.png" class="absolute bottom-0 w-28 -right-16 object-contain"></span>
                                 <p>Personalized and structured consultation aimed at helping individuals improve their skills, achieve their goals, and maximize their potential in a professional context.</p>
                             </div>
                         </div>
                         <div class="section-container-expertise-box flex flex-col lg:flex-row lg:items-start items-center justify-center gap-12">
-                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72 text-zinc-500">
+                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72">
                                 <span class="rounded-full bg-yellow-300 text-black py-2 px-6 flex font-bold items-center gap-2 relative">Social Media Sharing <img src="assets/images/icon-socmed.png" class="absolute bottom-0  w-28 h-16 -left-14 lg:-left-8 lg:w-auto object-contain"></span>
                                 <p>Amplify the impact of my expertise beyond physical boundaries, inspiring individuals worldwide to pursue excellence in their endeavors.</p>
                             </div>
-                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72 text-zinc-500">
+                            <div class="section-container-expertise-box-item flex flex-col items-center gap-4 text-center max-w-72">
                                 <span class="rounded-full bg-indigo-600 text-white py-2 px-6 flex font-bold items-center gap-2 relative">Workshops <img src="assets/images/icon-work.png" class="absolute bottom-0 w-28 h-16 -right-16 object-contain"></span>
                                 <p>Facilitate hands-on workshops designed to empower participants with practical skills and techniques.</p>
                             </div>
@@ -261,50 +314,24 @@
                 </div>
             </div>
 
-            <!-- section.Expertise -->
-            <div id="expertise" class="section overflow-hidden relative flex flex-col justify-between bg-black text-white bg-gradient-to-r from-transparent via-indigo-800/20 to-transparent" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col lg:items-center lg:flex-row gap-8 py-28 px-6 lg:px-12">
-                    <div class="section-container-head flex flex-col items-start gap-4">
-                        <h3 class="font-raleway font-bold w-full text-3xl lg:text-4xl leading-tight lg:leading-tight flex items-center  relative pb-8 whitespace-nowrap">Expertise Highlight  <svg class="absolute bottom-0 left-0"  width="302" height="19" viewBox="0 0 302 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 11.086C61.0748 3.76926 201.528 -5.41871 298.744 16.363" class="stroke-purple-500" stroke-width="5" stroke-linecap="round"/>
-                        </svg></h3>
-                        <p class="lg:max-w-md">Our goal? Continue to do what we do best: be creative, provide solutions, develop fantastic websites, support our clients in the best way possible and accelerate their growth.</p>
-                    </div>
-                    <div class="section-container-expertise flex flex-wrap lg:justify-center items-center text-xs font-bold md:text-base gap-2">
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Design Thinking</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Product Development Lifecycle</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black"> Product Metrics</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Stakeholder Management</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">User Research</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Agile Methodologies</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Retention and Loyalty Program</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Analytics & Business Analysis</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black"> Product Delivery</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Crafting CVs and Resumes </div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black"> Product Strategy</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Career as Product Manager</div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black">Teamwork and Team Management </div>
-                        <div class="section-container-expertise-item rounded-full py-2 px-4 lg:px-6 bg-white text-black"> Personal Growth Development</div>
-                    </div>
-                </div>
-            </div>
+
 
             <!-- section.Inspiration -->
             <div id="inspiration" class="section overflow-hidden relative flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <span class="absolute right-0 top-44 lg:right-12 lg:top-20 " >
+                <span class="absolute right-0 top-44 lg:right-12 lg:top-20 pointer-events-none" >
                     <img class="ornament-rotate" src="assets/images/Helix.png" alt="ornament" width="150" height="150">
                 </span>
                 <div class="section-container container relative z-10 max-w-screen-xl mx-auto py-28 px-6 lg:px-12">
-                    <div class="section-container-head flex flex-col items-start gap-4 mb-16">
-                        <h3 class="font-raleway font-bold w-full text-4xl lg:text-5xl leading-tight lg:leading-tight flex items-center bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-purple-500" style="--delay: 100ms; opacity: 0; transform: translate3d(-1rem, 0, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Inspiring Stories <span class="border-t border-black/10 flex-1"></span></h3>
-                        <span class="bg-purple-500 text-white py-1 px-3 lg:py-2 lg:px-6" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">Companies & Government</span>
+                    <div class="section-container-head flex flex-col items-start gap-2 mb-16">
+                        <h3 class="font-bold w-full text-4xl lg:text-5xl leading-tight lg:leading-tight flex gap-4 items-center bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-purple-500" style="--delay: 100ms; opacity: 0; transform: translate3d(-1rem, 0, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Inspiring Stories <span class="border-t border-black/10 flex-1"></span></h3>
+                        <span class="bg-purple-500 font-bold text-white py-1 px-3 lg:py-2 lg:px-6" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">Companies & Government</span>
                     </div>
                     <div class="section-container-inspiration flex flex-col flex-wrap lg:flex-row -mx-6" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">
                         <a href="#" target="_blank" rel="noopener noreferrer"  class="section-container-inspiration-block w-full lg:w-1/3 p-6">
-                            <img src="assets/images/thumbs-porto/Frame1.png" class="object-cover object-top  max-h-96 w-full">
+                            <img src="assets/images/thumbs-porto/Frame7.png" class="object-cover object-top  max-h-96 w-full">
                             <div class="section-container-inspiration-block-desc mt-6 flex flex-col gap-2">
-                                <h4 class="lg:text-xl truncate  font-bold font-raleway">RevoU x AdMedika</h4>
-                                <p>RevoU x AdMedika - Strategic Product Development for Health Solutions: A Deep Dive into AdMedika Objective and Key Results</p>
+                                <h4 class="lg:text-xl truncate  font-bold font-raleway">Indonesia Product Conference by Apiary</h4>
+                                <p>Topik "Creating and Communicating a Clear Product Strategy"</p>
                             </div>
                         </a>
                         <a href="#" target="_blank" rel="noopener noreferrer"  class="section-container-inspiration-block w-full lg:w-1/3 p-6 lg:mt-12">
@@ -343,10 +370,10 @@
                             </div>
                         </a>
                         <a href="#" target="_blank" rel="noopener noreferrer"  class="section-container-inspiration-block w-full lg:w-1/3 p-6 hidden">
-                            <img src="assets/images/thumbs-porto/Frame7.png" class="object-cover object-top  max-h-96 w-full">
+                            <img src="assets/images/thumbs-porto/Frame1.png" class="object-cover object-top  max-h-96 w-full">
                             <div class="section-container-inspiration-block-desc mt-6 flex flex-col gap-2">
-                                <h4 class="lg:text-xl truncate  font-bold font-raleway">Indonesia Product Conference by Apiary</h4>
-                                <p>Topik "Creating and Communicating a Clear Product Strategy"</p>
+                                <h4 class="lg:text-xl truncate  font-bold font-raleway">RevoU x AdMedika</h4>
+                                <p>RevoU x AdMedika - Strategic Product Development for Health Solutions: A Deep Dive into AdMedika Objective and Key Results</p>
                             </div>
                         </a>
                         <a href="#" target="_blank" rel="noopener noreferrer"  class="section-container-inspiration-block w-full lg:w-1/3 p-6 lg:mt-12 hidden">
@@ -602,33 +629,20 @@
                             </div>
                         </a>
                     </div>
-                    <button class="section-container-inspiration-loadmore bg-black text-sm text-white font-bold py-3 px-8 block border max-w-62 mx-auto transition hover:bg-white hover:text-black hover:border-black mt-12">LOAD MORE</button>
+                    <button class="section-container-inspiration-loadmore bg-black text-white font-bold py-4 px-14 block border max-w-62 mx-auto transition hover:bg-white hover:text-black hover:border-black mt-12">LOAD MORE</button>
                 </div>
             </div>
 
-            <!-- section.Inspiration.2 -->
-            <div id="inspiration" class="section overflow-hidden relative flex flex-col justify-between bg-black text-white bg-gradient-to-r from-transparent via-violet-800/20 to-transparent" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <span class="bg-gradient-to-r from-black via-transparent to-black absolute inset-0 z-10"></span>
-                <div class="section-container container relative max-w-full mx-auto">
-                    <div class="swiper swiper-horizontal text-4xl lg:text-5xl whitespace-nowrap pointer-events-none">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide w-auto flex items-center min-h-32 lg:min-h-52 px-6">consultation.</div>
-                            <div class="swiper-slide w-auto flex items-center min-h-32 lg:min-h-52 px-6">customization.</div>
-                            <div class="swiper-slide w-auto flex items-center min-h-32 lg:min-h-52 px-6">delivery.</div>
-                            <div class="swiper-slide w-auto flex items-center min-h-32 lg:min-h-52 px-6">follow up.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <!-- section.Inspiration.3 -->
-            <div id="inspiration" class="section overflow-hidden relative flex flex-col justify-between bg-black text-white bg-gradient-to-r from-transparent via-violet-800/20 to-transparent" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <span class="absolute right-0 top-32 lg:right-12 lg:top-0" >
+            <div id="inspiration" class="section overflow-hidden relative flex flex-col justify-between bg-black text-white" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+                <span class="absolute right-0 top-32 lg:right-12 lg:top-0 pointer-events-none" >
                     <img class="ornament-rotate" src="assets/images/Helix.png" alt="ornament" width="150" height="150">
                 </span>
                 <div class="section-container container relative z-10 max-w-screen-xl mx-auto border-t border-white/10 py-28 px-6 lg:px-12">
                     <div class="section-container-head flex flex-col items-start gap-4 mb-16">
-                        <h3 class="font-raleway font-bold w-full text-3xl lg:text-5xl leading-tight lg:leading-tight flex items-center" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">What Others Said<br> about Arie?</h3>
+                        <h3 class="font-bold w-full text-3xl lg:text-5xl leading-tight lg:leading-tight flex items-center" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">What Others Said<br> about Arie?</h3>
                     </div>
                     <div class="swiper swiper-testimony" style="overflow: visible;" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
                         <div class="static mb-8 lg:absolute -top-32 right-0 flex items-center gap-4">
@@ -656,8 +670,8 @@
                                     Many thanks Mas Arie.</p>
                                 </div>
                                 <div class="flex items-center gap-2 mt-10 overflow-hidden">
-                                    <img class="rounded-full w-6 h-6 lg:w-12 lg:h-12  object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
-                                    <h4 class="flex-1 font-raleway text-xs lg:text-base font-semibold overflow-hidden">Faruq Muslim 
+                                    <img class="rounded-full w-10 h-10 lg:w-12 lg:h-12  object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
+                                    <h4 class="flex-1 font-semibold overflow-hidden">Faruq Muslim 
                                         <small class="block text-zinc-500 text-xs font-normal font-poppins truncate">Revou Student</small></h4>
                                 </div>
                             </div>
@@ -670,8 +684,8 @@
                                 <div class="text-lg lg:text-xl"><p>Kalau generasi yang lebih senior sering dianggap jauh dari teknologi, susah menangkap materi semacam ini. Tapi, asalkan dijelaskan dengan baik, dengan menarik, mungkin karena expertise dari kawan-kawan di RevoU dan juga pemateri Pak Arie keren banget, sehingga kami bisa menangkap lebih mudah.</p>
                                 </div>
                                 <div class="flex items-center gap-2 mt-10 overflow-hidden">
-                                    <img class="rounded-full w-6 h-6 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/icon-bi.png" width="60" height="60">
-                                    <h4 class="flex-1 font-raleway text-xs lg:text-base font-semibold overflow-hidden">Ismid - Jawa Timur
+                                    <img class="rounded-full w-10 h-10 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/icon-bi.png" width="60" height="60">
+                                    <h4 class="flex-1 font-semibold overflow-hidden">Ismid - Jawa Timur
                                         <small class="block text-zinc-500 text-xs font-normal font-poppins  truncate">Kepala Tim Pengelolaan Uang Rupiah KPw BI</small></h4>
                                 </div>
                             </div>
@@ -684,8 +698,8 @@
                                 <div class="text-xl lg:text-2xl"><p>Banyak contoh kasus yang diberikan sehingga mempermudah dalam penjelasan. Materi menarik dan relate dengan pekerjaan.</p>
                                 </div>
                                 <div class="flex items-center gap-2 mt-10 overflow-hidden">
-                                    <img class="rounded-full w-6 h-6 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
-                                    <h4 class="flex-1 font-raleway text-xs lg:text-base font-semibold overflow-hidden">RevoU x Bank Sinarmas
+                                    <img class="rounded-full w-10 h-10 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/icon-sinarmas.png" width="60" height="60">
+                                    <h4 class="flex-1 font-semibold overflow-hidden">RevoU x Bank Sinarmas
                                         <small class="block text-zinc-500 text-xs font-normal font-poppins  truncate">Training Participant </small></h4>
                                 </div>
                             </div>
@@ -698,8 +712,8 @@
                                 <div class="text-xl lg:text-2xl"><p>Kak Ari, gave me a lot of positive feedback for future interviews. Moreover, there are also a lot of lessons that are useful for people like me who are new to the role of a product manager. Thank you, Kak Ari.</p>
                                 </div>
                                 <div class="flex items-center gap-2 mt-10 overflow-hidden">
-                                    <img class="rounded-full w-6 h-6 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
-                                    <h4 class="flex-1 font-raleway text-xs lg:text-base font-semibold overflow-hidden">Henny
+                                    <img class="rounded-full w-10 h-10 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
+                                    <h4 class="flex-1 font-semibold overflow-hidden">Henny
                                         <small class="block text-zinc-500 text-xs font-normal font-poppins  truncate">Revou Student</small></h4>
                                 </div>
                             </div>
@@ -712,8 +726,8 @@
                                 <div class="text-xl lg:text-2xl"><p>Terima kasih kak Arie! untuk kesempatannya belajar bersama kak Arie dalam proses karir saya.</p>
                                 </div>
                                 <div class="flex items-center gap-2 mt-10 overflow-hidden">
-                                    <img class="rounded-full w-6 h-6 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
-                                    <h4 class="flex-1 font-raleway text-xs lg:text-base font-semibold overflow-hidden">Rifan Arifian
+                                    <img class="rounded-full w-10 h-10 lg:w-12 lg:h-12 object-contain " src="assets/images/logo-partner/logo_revou.svg" width="60" height="60">
+                                    <h4 class="flex-1 font-semibold overflow-hidden">Rifan Arifian
                                         <small class="block text-zinc-500 text-xs font-normal font-poppins  truncate">Revou Student</small></h4>
                                 </div>
                             </div>
@@ -722,48 +736,103 @@
                 </div>
             </div>
 
-            <!-- section.Quotes -->
-            <div id="quotes" class="section overflow-hidden relative min-h-screen flex flex-col justify-between bg-white text-black" data-tone="light" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
-                <span class="absolute right-0 lg:right-12 top-0 lg:top-12" >
-                    <img class="ornament-rotate" src="assets/images/Pyramid.png" alt="ornament" width="150" height="150">
-                </span>
-                <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col items-center justify-center gap-10 py-28 px-6 lg:px-12">
-                    <p class="relative font-raleway max-w-5xl font-bold leading-tight text-2xl lg:text-5xl lg:leading-tight tracking-tight text-center" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">
-                        <svg class="absolute -top-24 left-12 w-14 lg:w-auto" width="149" height="148" viewBox="0 0 149 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M56 69.375H28.7588C29.6183 63.6508 31.6623 58.1689 34.7601 53.2792C37.8579 48.3896 41.9415 44.1998 46.75 40.9775L55.0288 35.4275L49.9412 27.75L41.6625 33.3C34.6939 37.9439 28.9794 44.2361 25.0261 51.6183C21.0727 59.0006 19.0028 67.2446 19 75.6188V106.375C19 108.828 19.9746 111.181 21.7093 112.916C23.444 114.65 25.7967 115.625 28.25 115.625H56C58.4533 115.625 60.806 114.65 62.5407 112.916C64.2754 111.181 65.25 108.828 65.25 106.375V78.625C65.25 76.1717 64.2754 73.819 62.5407 72.0843C60.806 70.3496 58.4533 69.375 56 69.375ZM120.75 69.375H93.5088C94.3683 63.6508 96.4123 58.1689 99.5101 53.2792C102.608 48.3896 106.692 44.1998 111.5 40.9775L119.779 35.4275L114.738 27.75L106.412 33.3C99.4439 37.9439 93.7294 44.2361 89.7761 51.6183C85.8227 59.0006 83.7528 67.2446 83.75 75.6188V106.375C83.75 108.828 84.7246 111.181 86.4593 112.916C88.194 114.65 90.5467 115.625 93 115.625H120.75C123.203 115.625 125.556 114.65 127.291 112.916C129.025 111.181 130 108.828 130 106.375V78.625C130 76.1717 129.025 73.819 127.291 72.0843C125.556 70.3496 123.203 69.375 120.75 69.375Z" fill="#111111"/>
-                        </svg>     
-                        I am dedicated to providing <br><span class="bg-violet-600 text-yellow-300 inline-block px-2 text-white">engaging, insightful, and actionable</span><br> presentations tailored to meet your organization's specific needs. <br>Together, let's inspire growth and drive success.
-                    </p>
-                    <div class="relative font-medium lg:text-lg pb-8 flex items-center gap-2" style="--delay: 100ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
-                        <img src="assets/images/quotes.jpg" alt="image" width="30" height="30" class="object-cover object-left w-10 h-10 lg:w-14 lg:h-14 rounded-full">
-                        <span>Cahyanto Arie Wibowo</span>
-                        <svg class="absolute bottom-0 inset-x-0 w-full" width="299" height="40" viewBox="0 0 299 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.5 37C59.1667 22.3333 197.3 -4.7 296.5 4.5" class="stroke-yellow-400" stroke-width="5" stroke-linecap="round"/>
+            <!-- section.client -->
+            <div id="client" class="section overflow-hidden min-h-screen relative flex flex-col justify-between bg-white text-black" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+                <div class="section-container container relative z-10 max-w-full  flex-1 flex flex-col text-center items-center justify-center gap-16 py-28 px-6 lg:px-12">
+                    <p class="max-w-4xl mx-auto flex flex-col items-center gap-4 text-xl lg:text-3xl overflow-hidden" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">
+                        <span>Since 2019 to the present, Arie has shared his expertise in product management, development, and digital media publishing with leading brands and platforms across <b>Indonesia, Southeast Asia, and at the Asia regional level </b></span>
+                        <svg width="302" height="19" viewBox="0 0 302 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.00005 12.0998C61.0513 4.59781 201.475 -5.03829 298.759 16.4331" stroke="#FFDE68" stroke-width="5" stroke-linecap="round"/>
                         </svg>
+                    </p>
+                    <div class="section-container-logos flex flex-col gap-12" style="--delay: 200ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
+                        <div class="section-container-logos flex flex-col gap-12" style="--delay: 200ms; opacity: 0;" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeIn">
+                            <div class="swiper swiper-horizontal text-4xl lg:text-5xl whitespace-nowrap pointer-events-none py-6">
+                                <div class="swiper-wrapper gap-4 lg:gap-24 items-end">
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_growth.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-24 h-24 flex items-center justify-center rounded-full shadow-xl px-2 mt-5"><img src="assets/images/logo-partner/logo_glints.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_disea.jpeg"  class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-40 h-40 flex items-center justify-center rounded-full shadow-xl px-2 mt-2"><img src="assets/images/logo-partner/Logo-Untar.webp" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-32 h-32 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo-bca.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-36 h-36 flex items-center justify-center rounded-full shadow-xl px-2 mt-1"><img src="assets/images/logo-partner/logo-FEB-UI.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-16 h-16 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_kemenparekraf.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_google.svg"  class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-36 h-36 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_moengage.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-14 h-14 flex items-center justify-center rounded-full shadow-xl px-2 mt-3"><img src="assets/images/logo-partner/logo_teknik.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-44 h-44 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo-binus.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-36 h-36 flex items-center justify-center rounded-full shadow-xl px-2 mt-6"><img src="assets/images/logo-partner/logo_emtekdigital.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_admedika.png" class="object-contain h-12"></div>
+                                    <div class="swiper-slide bg-white w-36 h-36 flex items-center justify-center rounded-full shadow-xl px-2 mt-4"><img src="assets/images/logo-partner/logo_growthhack.webp" class="object-contain"></div>
+                                </div>
+                            </div>
+                            <div class="swiper swiper-horizontal text-4xl lg:text-5xl whitespace-nowrap pointer-events-none py-6" >
+                                <div class="swiper-wrapper  gap-6 lg:gap-20 items-center">
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2 mt-6"><img src="assets/images/logo-partner/logo_bukatalks.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_aws.png"  class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-32 h-32 flex items-center justify-center rounded-full shadow-xl px-2 mt-4"><img src="assets/images/logo-partner/logo_ocbc.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-44 h-44 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_terampil.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-xl px-2 mt-8"><img src="assets/images/logo-partner/logo_izooto.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_idea.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_bi.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-24 h-24 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_digitalent.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-16 h-16 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_synrgy.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-24 h-24 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_binar.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-36 h-36 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_revou.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/Logo-IMM.png" class="object-contain"></div>
+                                </div>
+                            </div>
+                            <div class="swiper swiper-horizontal text-4xl lg:text-5xl whitespace-nowrap pointer-events-none py-6">
+                                <div class="swiper-wrapper gap-5 lg:gap-16 items-start">
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_similarweb.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-xl px-2 mt-1"><img src="assets/images/logo-partner/logo_adplist.png"  class="object-contain "></div>
+                                    <div class="swiper-slide bg-white w-44 h-44 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_sinarmas.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-36 h-36 flex items-center justify-center rounded-full shadow-xl px-2 mt-4"><img src="assets/images/logo-partner/logo_bpd.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_customer.svg" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-32 h-32 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_mma.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-14 h-14 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_apiary.webp" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-20 h-20 flex items-center justify-center rounded-full shadow-xl px-2 mt-6"><img src="assets/images/logo-partner/logo_indoproduct.webp" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-16 h-16 flex items-center justify-center rounded-full shadow-xl px-2 mt-2"><img src="assets/images/logo-partner/logo_1000.png" class="object-contain"></div>
+                                    <div class="swiper-slide bg-white w-32 h-32 flex items-center justify-center rounded-full shadow-xl px-2 mt-.5"><img src="assets/images/logo-partner/logo_kominfo.png" class="object-contain h-8"></div>
+                                    <div class="swiper-slide bg-white w-28 h-28 flex items-center justify-center rounded-full shadow-xl px-2"><img src="assets/images/logo-partner/logo_ida.png" class="object-contain"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
+
             <!-- section.Contact -->
-            <div id="contact" class="section relative min-h-screen flex flex-col justify-between bg-black text-white bg-gradient-to-r from-transparent via-violet-800/20 to-transparent" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
+            <div id="contact" class="section relative min-h-screen flex flex-col justify-between bg-black text-white" data-tone="dark" data-scroll data-scroll-repeat data-scroll-call="scrollEvent">
                 
-                <span class="absolute left-12 -top-24">
+                <span class="absolute left-12 -top-24 pointer-events-none">
                     <img class="ornament-rotate" src="assets/images/Helix.png" alt="ornament" width="150" height="150">
                 </span>
-                <span class="absolute right-0 bottom-24 hidden lg:block">
+                <span class="absolute right-0 bottom-32 z-20 pointer-events-none hidden lg:block">
                     <img class="ornament-rotate" src="assets/images/Thorus.png" alt="ornament" width="150" height="150">
                 </span>
                 <div class="section-container container relative z-10 max-w-screen-xl mx-auto flex-1 flex flex-col items-center text-center  justify-center gap-6 py-28 px-6 lg:px-12">
-                    <p class="max-w-4xl font-raleway font-bold text-xl lg:text-6xl" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Ready to drive growth and success for your organizations?</p>
-                    <span class="text-sm lg:text-2xl" style="--delay: 200ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Let's connect to discuss your needs and explore collaboration for your success!</span>
-                    <a  href="https://wa.me/0813181246949?text=Hello" class="bg-white text-black font-bold flex items-center justify-center py-3 px-4 lg:py-4 lg:px-6 gap-4 mt-6" style="--delay: 300ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">let's get your consultation 
+                    <p class="max-w-4xl font-bold text-2xl lg:text-6xl" style="--delay: 100ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Ready to drive growth and success for your organizations?</p>
+                    <span class="text-lg lg:text-2xl" style="--delay: 200ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Let's connect to discuss your needs and explore collaboration for your success!</span>
+                    
+                    <a  href="https://wa.me/0813181246949?text=Hello" class="bg-white relative text-black font-bold rounded-full flex items-center justify-center py-3 px-4 lg:py-4 lg:px-6 gap-2 mt-6" style="--delay: 300ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">Let's Get Your Consultation 
+                        <svg class="absolute right-full" width="150" height="139" viewBox="0 0 150 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M139 61C89.8107 61 43.6098 45.9405 3.00001 19" stroke="#864FCC" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M125 75C105.366 75 84.1228 74.9537 65 80" stroke="#864FCC" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M123 94C100.556 100.601 67 105.835 67 136" stroke="#864FCC" stroke-width="5" stroke-linecap="round"/>
+                        </svg>
                         <svg width="26" height="9" viewBox="0 0 26 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21.6 8.58393L25.0274 5.15646C25.1411 5.04283 25.2049 4.88872 25.2049 4.72803C25.2049 4.56733 25.1411 4.41322 25.0274 4.29959L21.6 0.87212C21.5153 0.78712 21.4072 0.729183 21.2896 0.705653C21.1719 0.682123 21.0499 0.694059 20.939 0.73995C20.8282 0.78584 20.7334 0.863617 20.6668 0.963421C20.6002 1.06323 20.5647 1.18056 20.5649 1.30055L20.5657 4.12222L0.60669 4.12136L0.60669 5.33469L20.5657 5.33383L20.5649 8.1555C20.5647 8.27549 20.6002 8.39283 20.6668 8.49263C20.7334 8.59244 20.8282 8.67021 20.939 8.7161C21.0499 8.76199 21.1719 8.77393 21.2896 8.7504C21.4072 8.72687 21.5153 8.66893 21.6 8.58393Z" fill="#111111"/>
+                        </svg>
+                        <svg class="absolute left-full" width="182" height="157" viewBox="0 0 182 157" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 61C60.1893 61 106.39 45.9405 147 19" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M25 75C44.6344 75 65.8772 74.9537 85 80" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
+                            <path d="M27 94C49.4438 100.601 83 105.835 83 136" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
                         </svg>
                     </a>
                     <div class="flex flex-wrap justify-center items-center gap-4 mt-12" style="--delay: 400ms; opacity: 0; transform: translate3d(0, 1rem, 0);" data-scroll data-scroll-offset="0%, 10%" data-scroll-class="scroll-fadeInXY">
                         <div class="items">
-                            <a class="flex items-center gap-2" rel="nofollow" href="mailto:cahyantoarie15@gmail.com">
+                            <a class="flex items-center text-violet-400 gap-2" rel="nofollow" href="mailto:cahyantoarie15@gmail.com">
                                 <i class="icon w-8 h-8 p-2 rounded-full flex items-center justify-center bg-violet-500 text-white rounded-full">
                                     <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M3 1H19C20.1 1 21 1.9 21 3V15C21 16.1 20.1 17 19 17H3C1.9 17 1 16.1 1 15V3C1 1.9 1.9 1 3 1Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -774,7 +843,7 @@
                             </a>
                         </div>
                         <div class="items">
-                            <a class="flex items-center gap-2" rel="nofollow" href="https://wa.me/0813181246949?text=Hello">
+                            <a class="flex items-center gap-2 text-yellow-300" rel="nofollow" href="https://wa.me/0813181246949?text=Hello">
                                 <i class="icon w-8 h-8 p-2 rounded-full flex items-center justify-center bg-yellow-300 text-black rounded-full">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 16.9201V19.9201C22.0011 20.1986 21.9441 20.4743 21.8325 20.7294C21.7209 20.9846 21.5573 21.2137 21.3521 21.402C21.1468 21.5902 20.9046 21.7336 20.6407 21.8228C20.3769 21.912 20.0974 21.9452 19.82 21.9201C16.7428 21.5857 13.787 20.5342 11.19 18.8501C8.77382 17.3148 6.72533 15.2663 5.18999 12.8501C3.49997 10.2413 2.44824 7.27109 2.11999 4.1801C2.095 3.90356 2.12787 3.62486 2.21649 3.36172C2.30512 3.09859 2.44756 2.85679 2.63476 2.65172C2.82196 2.44665 3.0498 2.28281 3.30379 2.17062C3.55777 2.05843 3.83233 2.00036 4.10999 2.0001H7.10999C7.5953 1.99532 8.06579 2.16718 8.43376 2.48363C8.80173 2.80008 9.04207 3.23954 9.10999 3.7201C9.23662 4.68016 9.47144 5.62282 9.80999 6.5301C9.94454 6.88802 9.97366 7.27701 9.8939 7.65098C9.81415 8.02494 9.62886 8.36821 9.35999 8.6401L8.08999 9.9101C9.51355 12.4136 11.5864 14.4865 14.09 15.9101L15.36 14.6401C15.6319 14.3712 15.9751 14.1859 16.3491 14.1062C16.7231 14.0264 17.1121 14.0556 17.47 14.1901C18.3773 14.5286 19.3199 14.7635 20.28 14.8901C20.7658 14.9586 21.2094 15.2033 21.5265 15.5776C21.8437 15.9519 22.0122 16.4297 22 16.9201Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -784,7 +853,7 @@
                             </a>
                         </div>
                         <div class="items">
-                            <a class="flex items-center gap-2" rel="nofollow" href="https://www.linkedin.com/in/cahyanto-arie-wibowo-73813938/?originalSubdomain=id">
+                            <a class="flex items-center gap-2 text-orange-300" rel="nofollow" href="https://www.linkedin.com/in/cahyanto-arie-wibowo-73813938/?originalSubdomain=id">
                                 <i class="icon w-8 h-8 p-2 rounded-full flex items-center justify-center bg-orange-300 text-black rounded-full">
                                     <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M3 1H19C20.1 1 21 1.9 21 3V15C21 16.1 20.1 17 19 17H3C1.9 17 1 16.1 1 15V3C1 1.9 1.9 1 3 1Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -796,7 +865,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="section overflow-hidden relative flex flex-col justify-between">
+                    <span class="bg-gradient-to-r absolute inset-0 z-10" style="background: linear-gradient(97deg, rgba(17, 17, 17,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, rgba(17, 17, 17,1) 100%);"></span>
+                    <div class="section-container container relative max-w-full mx-auto w-full">
+                        <div class="swiper swiper-horizontal text-4xl lg:text-5xl whitespace-nowrap pointer-events-none">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide w-auto flex items-center min-h-32  px-6">consultation.</div>
+                                <div class="swiper-slide w-auto flex items-center min-h-32 px-6">customization.</div>
+                                <div class="swiper-slide w-auto flex items-center min-h-32 px-6">delivery.</div>
+                                <div class="swiper-slide w-auto flex items-center min-h-32 px-6">follow up.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </main>
 
     </div>
